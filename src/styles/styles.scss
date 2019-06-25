@@ -1,7 +1,7 @@
 @import
 './shared',
-'minx/src/reset',
-'minx/src/elements',
+// 'minx/src/reset',
+// 'minx/src/elements',
 './grid';
 
 
@@ -11,6 +11,7 @@ html {
 
 body {
   padding-bottom: 120px;
+  background-color: #CCC;
 }
 
 a {
