@@ -7,7 +7,7 @@ const config = {
     headers: {'Access-Control-Allow-Origin': '*'}
 };
 
-const ROOT_URL = 'http://coolspammail.pythonanywhere.com';
+const ROOT_URL = 'https://coolspammail.pythonanywhere.com';
 
 
 export function* fetchTodos() {
