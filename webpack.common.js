@@ -20,11 +20,13 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         loader: 'babel-loader',
-      }, {
+      },
+      {
         test: /\.jsx$/,
         exclude: /node_modules/,
         loader: 'babel-loader',
-      }, {
+      },
+      {
         test: /\.scss$/,
         use: extractSass.extract({
           fallback: {
@@ -40,12 +42,14 @@ module.exports = {
                 sourceMap: true,
                 importLoaders: 1,
               },
-            }, {
+            },
+            {
               loader: 'postcss-loader',
               options: {
                 sourceMap: true,
               },
-            }, {
+            },
+            {
               loader: 'sass-loader',
               options: {
                 sourceMap: true,
